@@ -2,6 +2,8 @@
 
 ![CI](https://github.com/ngonge-sys/nutrition/actions/workflows/ci.yml/badge.svg)
 ![Python](https://img.shields.io/badge/python-3.8%2C3.10%2C3.11-blue)
+![Codecov](https://img.shields.io/codecov/c/github/ngonge-sys/nutrition)
+![PyPI](https://img.shields.io/pypi/v/nutrition)
 
 Small personal project to analyze and plot nutrition CSV data found under `PERSONAL/nutrition.csv`.
 
@@ -39,3 +41,8 @@ python3 -m pytest -q
 ## Contributing
 
 Open a pull request against `fix/linting-ci` or the main branch.
+
+## Badges notes
+
+- Codecov: the Codecov badge will work after you enable Codecov for this repository and upload coverage reports in CI.
+- PyPI: the PyPI badge assumes a package named `nutrition` exists on PyPI; update the package name or remove the badge if not publishing.
