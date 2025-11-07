@@ -42,6 +42,8 @@ jobs:
           # run tests with coverage
           python -m pip install coverage
           python -m coverage run -m pytest -q
+          # write coverage.xml for Codecov
+          python -m coverage xml -i -o coverage.xml
           python -m coverage report -m
 
       - name: Upload coverage to Codecov
