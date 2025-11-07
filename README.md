@@ -1,5 +1,8 @@
 # Nutrition data tools
 
+![CI](https://github.com/ngonge-sys/nutrition/actions/workflows/ci.yml/badge.svg)
+![Python](https://img.shields.io/badge/python-3.8%2C3.10%2C3.11-blue)
+
 Small personal project to analyze and plot nutrition CSV data found under `PERSONAL/nutrition.csv`.
 
 ## What is included
