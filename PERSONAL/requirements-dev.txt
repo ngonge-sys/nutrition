@@ -1,4 +1,0 @@
-matplotlib
-pytest
-black
-flake8
